@@ -1,0 +1,25 @@
+[package]
+name = "seminar"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0.95"
+
+[[bin]]
+name = "plain_enum"
+path = "src/enum_snippets/1_plain_enum.rs"
+
+[[bin]]
+name = "enum_with_value"
+path = "src/enum_snippets/2_enum_with_value.rs"
+
+[[bin]]
+name = "linked_list"
+path = "src/enum_snippets/3_linked_list.rs"
+
+[[bin]]
+name = "json_reader"
+path = "src/enum_snippets/4_json_reader.rs"
